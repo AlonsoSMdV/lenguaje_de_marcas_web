@@ -406,6 +406,9 @@ margin: auto;}
 /**************media queries****************************************/
 
 @media only screen and (width<=1200px) {
+  #titulo{
+    font-size: 2.5rem;
+  }
     #wrapper{width: 100%;
     font-size: 2rem;}
         .grid2{grid-template-columns: 100%;
@@ -428,7 +431,7 @@ margin: auto;}
 
 @media only screen and (width<=600px) {
     #titulo{width: 80%;
-    font-size: 2.5rem;}
+    font-size: 2rem;}
     .col2-2{
       margin: auto;
     }
