@@ -407,7 +407,7 @@ margin: auto;}
 
 @media only screen and (width<=1200px) {
   #titulo{
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
     #wrapper{width: 100%;
     font-size: 2rem;}
