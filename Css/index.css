@@ -323,7 +323,7 @@ margin: auto;}
 
 
 
-/************************** Contacto ******************************************/
+/************************** Datos ******************************************/
 #datos{
   background-color: black;
 }
@@ -406,6 +406,10 @@ margin: auto;}
 
         .grid2-2{grid-template-columns: 100%;
         font-size: 1rem;}
+        .responsive-iframe{
+          width: 500px;;
+    
+        }
 }
 
 @media only screen and (width<=600px) {
@@ -422,6 +426,16 @@ margin: auto;}
     .grid2-2{grid-template-columns: 100%;
       font-size: 1rem;
       margin: 0%;
+
+    }
+    .flip-card{
+      width: 400px;
+      height: 300px;
+      font-size: 0.77rem;
+    }
+    .responsive-iframe{
+      width: 400px;;
+
     }
 }
 
