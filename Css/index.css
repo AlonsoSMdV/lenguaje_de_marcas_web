@@ -429,7 +429,7 @@ margin: auto;}
         }
 }
 
-@media only screen and (width<=600px) {
+@media only screen and (width<=650px) {
     #titulo{width: 80%;
     font-size: 2rem;}
     .col2-2{
