@@ -207,7 +207,7 @@ nav {
 
 #titulo{
 
-    backdrop-filter: invert(80%);                 /* al fondo se le aplica el filtro blur*/
+    backdrop-filter: invert(80%);                 /* al fondo se le aplica el filtro invert*/
     width: 100%;
     margin: auto;
     padding: 1px;
