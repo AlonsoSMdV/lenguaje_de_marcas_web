@@ -206,12 +206,11 @@ nav {
 }
 
 #titulo{
-    background-color: rgb(255, 255, 255,0.5);
-    backdrop-filter: blur(5px);                         /* al fondo se le aplica el filtro blur*/
-    border-radius: 50%;
-    width: 50%;
+
+    backdrop-filter: invert(80%);                 /* al fondo se le aplica el filtro blur*/
+    width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 1px;
     margin-top: 10%;
     color: #FF8400;
 }
@@ -264,7 +263,7 @@ margin: auto;}
 
 
 /**********************SECCIÓN PROTAS Y AUTOR******************************/
-#autores{
+#autoryprotas{
   background-color: black;
 }
 .grid4 {display:grid;
@@ -431,7 +430,7 @@ margin: auto;}
 }
 
 @media only screen and (width<=700px) {
-    #titulo{width: 80%;
+    #titulo{width: 100%;
     font-size: 2rem;}
     .col2-2{
       margin: auto;
